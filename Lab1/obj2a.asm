@@ -1,0 +1,5 @@
+MOV SI, 300H
+MOV AL, [SI]
+ROR AL, 04
+MOV [SI+1], AL
+HLT
